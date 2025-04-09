@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "nama": "Hoodie Minimalis",
+      "harga": 250000,
+      "diskonPersen": 20,
+      "gambar": "/images/5.png",
+      "kategori": "hoodie",
+      "createdAt": "2025-04-07"
+    },
+    {
+      "id": 2,
+      "nama": "Kaos Hoodie",
+      "harga": 150000,
+      "diskonPersen": 10,
+      "gambar": "/images/3.png",
+      "kategori": "kaos",
+      "createdAt": "2025-04-05"
+    },
+    {
+      "id": 3,
+      "nama": "Jaket Streetwear",
+      "harga": 350000,
+      "gambar": "/images/6.png",
+      "kategori": "jaket",
+      "createdAt": "2025-03-28"
+    }
+  ]
+  
