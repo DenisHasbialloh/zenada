@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/Toko-Online',
-  assetPrefix: '/Toko-Online/',
-}
+    images: {
+        domains: ['via.placeholder.com'],
+      },
+};
 
-export default nextConfig
+export default nextConfig;

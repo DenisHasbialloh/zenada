@@ -59,7 +59,8 @@ export default function TestimoniSection() {
               height={80}
               className="rounded-full mx-auto object-cover"
             />
-            <p className="text-gray-300 text-sm italic">"{item.komentar}"</p>
+            <p className="text-gray-300 text-sm italic">&quot;{item.komentar}&quot;</p>
+
             <h4 className="font-semibold text-[#FFC1CC]">{item.nama}</h4>
           </motion.div>
         ))}

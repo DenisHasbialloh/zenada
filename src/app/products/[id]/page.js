@@ -6,6 +6,13 @@ import Navbar from '@/app/components/Navbar'
 import { useCart } from '@/app/context/CartContext'
 import { toast } from 'react-hot-toast'
 
+// Fungsi ini diperlukan untuk static export
+export function generateStaticParams() {
+  return products.map((product) => ({
+    id: product.id.toString(),
+  }))
+}
+
 export default function ProductDetail() {
   const { id } = useParams()
   const product = products.find((p) => p.id === parseInt(id))
