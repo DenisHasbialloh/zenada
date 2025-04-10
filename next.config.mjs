@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/Toko-Online',
+  assetPrefix: '/Toko-Online/',
 }
 
 export default nextConfig
