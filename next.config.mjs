@@ -1,12 +1,9 @@
-const isProd = process.env.NODE_ENV === 'production';
-
-const config = {
-  output: 'export',
-  basePath: isProd ? '/zenada' : '',
-  assetPrefix: isProd ? '/zenada/' : '',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
   images: {
-    unoptimized: true,
+    unoptimized: true, // ini boleh kalau kamu pakai gambar lokal
   },
 };
 
-export default config;
+export default nextConfig;
