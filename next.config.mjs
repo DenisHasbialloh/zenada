@@ -1,8 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-        domains: ['via.placeholder.com'],
-      },
+const isProd = process.env.NODE_ENV === 'production';
+
+const config = {
+  output: 'export',
+  basePath: isProd ? '/zenada' : '',
+  assetPrefix: isProd ? '/zenada/' : '',
+  images: {
+    unoptimized: true,
+  },
 };
 
-export default nextConfig;
+export default config;
